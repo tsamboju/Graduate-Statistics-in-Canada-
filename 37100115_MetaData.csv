@@ -1,0 +1,192 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Characteristics and median employment income of longitudinal cohorts of postsecondary graduates two and five years after graduation, by educational qualification and field of study (primary groupings)","37100115",,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710011501",1;2,"CURRENT - a cube available to the public and that is current","Occasional","2010-01-01","2017-01-01","8",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Educational qualification",9,""
+"3","Field of study",11,""
+"4","Gender",,""
+"5","Age group",12,""
+"6","Status of student in Canada",13,""
+"7","Characteristics after graduation",,""
+"8","Graduate statistics",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Newfoundland and Labrador","[10]","2","1","",,
+"1","Prince Edward Island","[11]","3","1","",,
+"1","Nova Scotia","[12]","4","1","",,
+"1","New Brunswick","[13]","5","1","",4,
+"1","Quebec","[24]","6","1","",5,
+"1","Ontario","[35]","7","1","",6,
+"1","Manitoba","[46]","8","1","",7,
+"1","Saskatchewan","[47]","9","1","",,
+"1","Alberta","[48]","10","1","",,
+"1","British Columbia","[59]","11","1","",,
+"1","Territories","[6]","12","1","",8,
+"1","Canada","[11124]","1","","",3,
+"2","Other post career, technical or professional training program credential","","33","1","",,
+"2","Undergraduate short credential","","34","1","",,
+"2","Master’s-level short credential","","35","1","",,
+"2","Other post-baccalaureate non-graduate credential","","36","1","",,
+"2","Health-related residency program degree","","37","1","",,
+"2","Post-doctoral short credential","","38","1","",,
+"2","Career, technical or professional training certificate","","2","1","",,
+"2","Career, technical or professional training diploma","","3","1","",,
+"2","Career, technical or professional training short credential","","4","1","",,
+"2","Other career, technical or professional training credential","","5","1","",,
+"2","Post career, technical or professional training program certificate","","6","1","",,
+"2","Post career, technical or professional training program diploma","","7","1","",,
+"2","Pre-university certificate","","8","1","",,
+"2","Undergraduate certificate","","9","1","",,
+"2","Undergraduate diploma","","10","1","",,
+"2","Undergraduate degree","","11","1","",9,
+"2","Undergraduate associate degree","","12","1","",,
+"2","Post-baccalaureate non-graduate certificate","","13","1","",,
+"2","Post-baccalaureate non-graduate diploma","","14","1","",,
+"2","Post-baccalaureate non-graduate degree","","15","1","",9,
+"2","Health-related residency program diploma","","16","1","",,
+"2","Master's certificate","","17","1","",,
+"2","Master's diploma","","18","1","",,
+"2","Master's degree","","19","1","",,
+"2","Other master's-level credential","","20","1","",,
+"2","Doctoral-level certificate","","21","1","",,
+"2","Doctoral-level diploma","","22","1","",,
+"2","Doctoral degree","","23","1","",,
+"2","Post-doctoral diploma","","24","1","",,
+"2","Other postsecondary certificate","","25","1","",,
+"2","Other postsecondary diploma","","26","1","",,
+"2","Other postsecondary degree","","27","1","",,
+"2","Professional degree","","28","1","",10,
+"2","Health-related residency program certificate","","29","1","",,
+"2","Post career, technical or professional training program short credential","","30","1","",,
+"2","Other undergraduate credential","","31","1","",,
+"2","Other type of postsecondary program and credential","","32","1","",,
+"2","Total, educational qualification","","1","","",23,
+"3","Education","[1]","2","1","",,
+"3","Visual and performing arts, and communications technologies","[2]","4","1","",,
+"3","Humanities","[3]","7","1","",,
+"3","Social and behavioural sciences and law","[4]","16","1","",,
+"3","Business, management and public administration","[5]","24","1","",,
+"3","Physical and life sciences and technologies","[6]","27","1","",,
+"3","Mathematics, computer and information sciences","[7]","33","1","",,
+"3","Architecture, engineering, and related technologies","[8]","38","1","",,
+"3","Agriculture, natural resources and conservation","[9]","46","1","",,
+"3","Health and related fields","[10]","49","1","",,
+"3","Personal, protective and transportation services","[11]","53","1","",,
+"3","Other instructional programs","[12]","58","1","",,
+"3","Education","[13]","3","2","",,
+"3","Communications technologies/technicians and support services","[10]","5","4","",,
+"3","Visual and performing arts","[50]","6","4","",,
+"3","Aboriginal and foreign languages, literatures and linguistics","[16]","8","7","",,
+"3","English language and literature/letters","[23]","9","7","",,
+"3","Liberal arts and sciences, general studies and humanities","[24]","10","7","",,
+"3","Interdisciplinary humanities","[30A]","11","7","",,
+"3","Philosophy and religious studies","[38]","12","7","",,
+"3","Theology and religious vocations","[39]","13","7","",,
+"3","History","[54]","14","7","",,
+"3","French language and literature/letters","[55]","15","7","",,
+"3","Area, ethnic, cultural, gender, and group studies","[5]","17","16","",,
+"3","Communication, journalism and related programs","[9]","18","16","",,
+"3","Family and consumer sciences/human sciences","[19]","19","16","",,
+"3","Legal professions and studies","[22]","20","16","",,
+"3","Interdisciplinary social and behavioural sciences","[30B]","21","16","",,
+"3","Psychology","[42]","22","16","",,
+"3","Social sciences","[45]","23","16","",,
+"3","Public administration and social service professions","[44]","25","24","",,
+"3","Business, management, marketing and related support services","[52]","26","24","",,
+"3","Biological and biomedical sciences","[26]","28","27","",,
+"3","Biological and physical sciences","[30.01]","29","27","",,
+"3","Other interdisciplinary physical and life sciences","[30C]","30","27","",,
+"3","Physical sciences","[40]","31","27","",,
+"3","Science technologies/technicians","[41]","32","27","",,
+"3","Computer and information sciences and support services","[11]","34","33","",,
+"3","Library science","[25]","35","33","",,
+"3","Mathematics and statistics","[27]","36","33","",,
+"3","Interdisciplinary mathematics, computer and information sciences","[30D]","37","33","",,
+"3","Architecture and related services","[4]","39","38","",,
+"3","Engineering","[14]","40","38","",,
+"3","Engineering technologies and engineering-related fields","[15]","41","38","",,
+"3","Historic preservation and conservation","[30.12]","42","38","",,
+"3","Construction trades","[46]","43","38","",,
+"3","Mechanic and repair technologies/technicians","[47]","44","38","",,
+"3","Precision production","[48]","45","38","",,
+"3","Agriculture, agriculture operations and related sciences (except cannabis)","[1]","47","46","",,
+"3","Natural resources and conservation","[3]","48","46","",,
+"3","Parks, recreation, leisure and fitness studies","[31]","50","49","",,
+"3","Health professions and related programs","[51]","51","49","",,
+"3","Dental, medical and veterinary residency programs","[60]","52","49","",,
+"3","Personal and culinary services (except cannabis)","[12]","54","53","",,
+"3","Military science, leadership and operational art","[28]","55","53","",,
+"3","Security and protective services","[43]","56","53","",,
+"3","Transportation and materials moving","[49]","57","53","",,
+"3","Military technologies and applied sciences","[29]","60","53","",,
+"3","Multidisciplinary/interdisciplinary studies, other","[30.99]","59","58","",,
+"3","Total, field of study","","1","","",,
+"4","Man","","2","1","",,
+"4","Woman","","3","1","",,
+"4","Total, gender","","1","","",,
+"5","15 to 34 years","","2","1","",,
+"5","35 to 64 years","","3","1","",,
+"5","15 to 64 years","","1","","",,
+"6","Canadian students","","2","1","",,
+"6","International students","","3","1","",,
+"6","Canadian and international students","","1","","",,
+"7","Graduates with no income information","","2","1","",18,
+"7","Full-time students","","3","1","",19,
+"7","Graduates reporting employment income","","4","1","",14,
+"7","Graduates reporting wages, salaries, and commissions only","","5","4","",20,
+"7","All graduates","","1","","",,
+"8","Number of graduates","","1","","",15;16,
+"8","Median employment income two years after graduation","","2","","",15;17,
+"8","Median employment income five years after graduation","","3","","",15;17,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"4105","Annual Income Estimates for Census Families and Individuals (T1 Family File)"
+"5017","Postsecondary Student Information System"
+
+"Subject Code","Subject Name"
+"37","Education, training and learning"
+
+"Note ID",Note
+1,"Longitudinal cohort analysis: Graduates of a given cohort are observed for a period of five years after graduation, although results are only shown for two and five years afterwards (for example, results for graduates of the calendar year 2010 are shown in 2012 and 2015). Graduates who had no income data or returned to school full time in any of the five years were excluded from the income analysis subpopulations for the entire five year period. This ensures that the income analysis subpopulations are the same in every year of analysis and the results can be compared over time. See the technical reference guide <a href="https://www150.statcan.gc.ca/n1/pub/37-20-0001/372000012024001-eng.htm" rel="external noopener noreferrer" target="_blank">Labour market outcomes for college and university graduates, 2010 to 2020 (opens new window)</a> for further information."
+2,"The data are subject to annual revision. The year chosen for constant dollars may also be updated."
+3,"Estimates may not be available for all reference periods for all geographies, due to data limitations. The Canada estimates exclude college graduates for the following provinces and territories and graduate cohorts: Ontario (2010 to 2013), New Brunswick (2010), Manitoba (2010), Territories (2010 and 2011)."
+4,"Due to data limitations, estimates for the 2010 cohort are not available for New Brunswick college graduates."
+5,"Quebec CEGEP graduates with a diploma in the technical stream leading to labour market entry are included in the study population, while pre-university diploma graduates from CEGEPs are excluded. University micro-programs and attestations are excluded at the undergraduate, master's and doctoral levels."
+6,"Due to data limitations, estimates for the 2010 to 2013 cohorts are not available for Ontario college graduates."
+7,"Due to data limitations, estimates for the 2010 cohort are not available for Manitoba college graduates, nor for graduates who obtained "Career, technical or professional training certificates" from Manitoba universities."
+8,"The Territories include Yukon, the Northwest Territories, and Nunavut. Due to data limitations, estimates for the Territories are not available for the 2010 and 2011 graduate cohorts."
+9,"Educational qualification is derived by combining two Postsecondary Student Information System (PSIS) variables: program type and credential type. For consistency and homogeneity across provinces and territories, two adjustments are made. (1) Medicine, Dentistry, Veterinary medicine, Optometry, Pharmacy and Law degrees reported as "Undergraduate degrees" or "Post-baccalaureate non-graduate degrees" are regrouped as "Professional degrees." (2) "Post-baccalaureate non-graduate degrees" in the fields of Education and Social work are regrouped with "Undergraduate degrees". <a href="http://www23.statcan.gc.ca/imdb/p3VD.pl?Function=getVD&TVD=1252576" rel="external noopener noreferrer" target="_blank">Classification of programs and credentials - professional degree variant (opens new window)<a/>."
+10,"Includes "Undergraduate degree" and "Post-baccalaureate non-graduate degree" programs in the following fields of study (based on CIP Canada 2016, 6-digit classes): 22.0101 Law (LLB, JD, BCL); 51.1201 Medicine (MD); 51.0401 Dentistry (DDS, DMD); 51.2401 Veterinary medicine (DVM); 51.1701 Optometry (OD); 51.2001 Pharmacy (PharmD, BS, BSc, BPharm)."
+11,"This variable uses the <a href="https://www23.statcan.gc.ca/imdb/p3VD.pl?Function=getVD&TVD=1261820" rel="external noopener noreferrer" target="_blank">Cannabis primary groupings (opens new window)</a> variant of the Classification of Instructional Programs (CIP) Canada 2016 with detail on the underlying two-digit series and the sub-series coming from CIP series "30. Multidisciplinary/interdisciplinary studies". The "Personal improvement and leisure" primary grouping and non-postsecondary fields of study under the "Other" primary grouping are excluded from this table."
+12,"Refers to the age of graduates on December 31st of the year of graduation. The study population only includes graduates between 15 and 64 years old."
+13,"Status of student in Canada is defined on December 31st of the year of graduation. "Canadian students" include Canadian citizens and permanent residents. "International students" include students studying in Canada on student visas, non-Canadian students in Canada on other types of visas, non-Canadians whose status is unknown, and non-Canadian students studying from outside Canada (for example, by Internet). Students with missing status of student in Canada information are excluded from this analysis."
+14,""Graduates reporting employment income" excludes graduates with no income information and those who were full-time students in the year in which earnings were measured. Graduates reporting $0 in wages, salaries and commissions and in net self-employment income are included in the "Number of graduates" but not in the "Median employment income" estimates. Employment income includes wages, salaries and commissions (wages and salaries, commissions from employment, training allowances, tips and gratuities, tax exempted Indian employment income) and net self-employment income (net income from business, profession, farming, fishing and commissions). Net self-employment income may be positive, negative or zero."
+15,"Graduates reporting $0 in wages, salaries and commissions and in net self-employment income are included in the calculation of the "Number of graduates" as well as the "Median employment income"."
+16,"The "Number of graduates" represents the number of individuals. Due to different study population definitions and methodology, graduate counts in this table differ from the published annual counts from the Postsecondary Student Information System (PSIS). All counts are randomly rounded. Due to rounding, components may not add to the totals."
+17,"The "Median employment income" is not provided for the aggregate "Total, educational qualification". All dollar figures are rounded to the nearest hundred."
+18,"These are in-scope graduates for whom tax information could not be found in one or more tax years during the five year period for the longitudinal cohort income analysis for reasons including: insufficient information; filed taxes late; or did not file their taxes. Some persons were not required to file taxes. This group includes many international students who left Canada after graduation. Sometimes, the data for an entire institution cannot be used. Graduates with no income information in the period of analysis are excluded from the subpopulations for "Full-time students", "Graduates reporting employment income", and "Graduates reporting wages, salaries and commissions only"."
+19,"“Full-time students” represents graduates who attended school full time in the year in which earnings were measured. The full-time students category excludes graduates with no income information. Full-time students are excluded from the subpopulations "Graduates reporting employment income", and "Graduates reporting wages, salaries and commissions only", since they are expected to have different earnings profiles. "Median employment income" is not provided for this subpopulation."
+20,""Graduates with employment earnings from wages, salaries and commissions only"  (before tax) excludes graduates with no income information, those who were full-time students and those who were self-employed at any point during the five year period for the longitudinal cohort income analysis. Graduates reporting $0 in wages, salaries and commissions are included in the "Number of graduates" and the "Median employment income" estimates."
+23,""Median employment income" is not provided for the aggregate "Total, educational qualification"."
+
+"Correction ID","Correction Date","Correction Note"
+"3381","2021-11-03","On November 3, 2021, corrections were made to the data for each of the reference periods from 2010 to 2014 due to problems with the educational qualification labels that occurred during the annual update on October 21, 2021.",
+
